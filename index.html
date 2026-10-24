@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AWS S3 Static Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 900px;
+            text-align: center;
+            padding: 50px 30px;
+            background: #1e293b;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        }
+
+        .aws {
+            color: #ff9900;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #38bdf8;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: #334155;
+            padding: 25px;
+            border-radius: 15px;
+            width: 200px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+
+        .status {
+            margin-top: 35px;
+            display: inline-block;
+            padding: 12px 25px;
+            background: #16a34a;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #94a3b8;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="aws">
+            ☁ AMAZON WEB SERVICES
+        </div>
+
+        <h1>
+            AWS <span>S3</span> Static Website
+        </h1>
+
+        <p>
+            Welcome to my AWS Cloud internship project.
+            This website is hosted using Amazon S3 Static Website Hosting.
+        </p>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>Amazon S3</h3>
+                <p>Cloud storage and static website hosting.</p>
+            </div>
+
+            <div class="card">
+                <h3>HTML & CSS</h3>
+                <p>Frontend technologies used to build this website.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cloud</h3>
+                <p>Learning practical AWS cloud deployment.</p>
+            </div>
+
+        </div>
+
+        <div class="status">
+            ✓ Website Successfully Deployed
+        </div>
+
+        <footer>
+            AWS S3 Static Website Hosting | Internship Project
+        </footer>
+
+    </div>
+
+</body>
+</html>
